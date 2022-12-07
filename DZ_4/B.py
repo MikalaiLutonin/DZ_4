@@ -28,7 +28,6 @@ def encode_equation(equation: str) -> dict:                                   # 
     return equation_pattern
 
 
-path_first = 'first.txt'
 file_first = open('first.txt', 'r')
 for i in file_first:
     print('Первый многочлен: ')
